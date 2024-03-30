@@ -9,7 +9,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-runs:
   using: 'node20'
   main: 'main.js'
 
