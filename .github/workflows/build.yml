@@ -9,10 +9,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-  using: 'node20'
-  main: 'main.js'
-
-    
+ 
       - name: Get Date
         id: get-date
         run: |
